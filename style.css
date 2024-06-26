@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: auto;
+}
+
+
+
+.header {
+
+    display: flex;
+    padding: 13px;
+    color: rgb(110, 104, 104);
+    font-size: small;
+    height: fit-content;
+
+
+
+}
+
+p {
+    margin: 7px;
+    padding-left: 10px;
+
+}
+
+.img-baner {
+    position: absolute;
+    top: 55px;
+    left: 1px;
+    right: 1px;
+    width: 100px;
+
+}
+
+.img {
+    position: absolute;
+    width: 1518px;
+
+
+}
+
+.inner-body {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    right: 1000px;
+    width: 610px;
+    height: 315px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    line-height: 25px;
+    word-spacing: 3px;
+
+
+}
+
+.navbar {
+    position: absolute;
+    width: 300px;
+    top: 570px;
+    right: 595px;
+}
+
+
+.devices {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 720px;
+    height: 70px;
+    justify-content: space-evenly;
+    display: flex;
+    left: 400px;
+    top: 600px;
+}
+
+.img-inner {
+    position: relative;
+    width: 410px;
+    height: 250px;
+    bottom: 400px;
+    left: 220px;
+    color: #fff;
+}
+
+
+
+.for-business {
+    position: relative;
+    display: flex;
+    width: 1363px;
+    height: fit-content;
+    left: 88px;
+    justify-content: space-between;
+    bottom: 120px;
+}
+
+.social-media {
+    display: flex;
+    margin-left: 88px;
+
+    width: fit-content;
+}
+
+
+.footer {
+    position: relative;
+    width: 1300;
+    height: 440px;
+    background-color: rgb(240, 246, 246);
+    display: flex;
+
+}
+
+.footer ul {
+
+    padding: 30px;
+    margin-left: 60px;
+    list-style-type: none;
+    color: #7a7272;
+    display: block;
+}
+
+.footer li {
+    font-size: 10px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.footer-s-a {
+    position: absolute;
+    left: 90px;
+    /*background: rgba(176, 108, 108, 0.43);*/
+    width: 1400px;
+    height: 30px;
+    bottom: 20px;
+    display: flex;
+}
+
+.footer-s-a ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-s-b ul {
+    /*background-color: #29649252;*/
+    margin-left: 533px;
+    width: 430px;
+}
+
+.footer-s-b li{
+    padding: 11px;
+    margin: 0;
+}
+
+
